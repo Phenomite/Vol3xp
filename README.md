@@ -1,5 +1,22 @@
 # Vol3xp, Volatility 3 Explorer Plugins
 
+## Installation
+
+### Warning - Requires a specific Volatility3 
+
+Download Volatility 3 Framework 1.2.1-beta.1
+
+* `git clone https://github.com/Phenomite/volatility3`
+* `python3 -m pip install ./volatility3/`
+
+Copy this repo's files to the root of volatility3 folder alongside file `vol.py`.
+
+Ensure you also copy them to the folder `./volatility3/volatility/plugins/windows/` as well.
+
+Execute with `python3 volexp.py`.
+
+## Original Readme
+
 ### WinObj -> Windows Kernel Objects Explorer an improve of <https://github.com/kslgroup/WinObj> for volatility 3 (winobj.py)
 WinObj (very similar to WinObj [sysinternals]) Also supports Struct Analyzer and [WinObjGui](#11) from VolExp.
 
